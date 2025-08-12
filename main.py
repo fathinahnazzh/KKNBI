@@ -8,7 +8,7 @@ Homepage = st.Page("halaman_utama.py",
     title=" Profil Desa",
     default=True)
 
-Berita = st.Page("Berita\Berita_Bulan_Agustus_2025.py",
+Berita = st.Page("Berita_Bulan_Agustus_2025.py",
     title=" Berita Desa Bulan Agustus 2025",
     icon=":material/person:")
 
@@ -27,5 +27,6 @@ if st.session_state.pindah:
 else:
     st.write("Maaf Anda kurang beruntung :(") 
 pg.run()
+
 
 
