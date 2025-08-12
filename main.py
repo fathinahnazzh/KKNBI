@@ -4,7 +4,7 @@ import streamlit as st
 
 st.session_state.pindah = True
 
-Homepage = st.Page("Halaman Utama/halaman_utama.py",
+Homepage = st.Page("halaman_utama.py",
     title=" Profil Desa",
     default=True)
 
@@ -27,4 +27,5 @@ if st.session_state.pindah:
 else:
     st.write("Maaf Anda kurang beruntung :(") 
 pg.run()
+
 
