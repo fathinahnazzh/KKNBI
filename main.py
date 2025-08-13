@@ -12,9 +12,10 @@ Berita = st.Page("Berita_Bulan_Agustus_2025.py",
     title=" Berita Desa Bulan Agustus 2025",
     icon=":material/person:")
 
-#Perlu diperhatikan perubahannya
-#KREASI = st.Page("tools/KREASI.py", title="KREASI", icon=":material/search:")
-#KREASII = st.Page("tools/KREASII.py", title="KREASII", icon=":material/search:")
+#Kalau mau nambah menu
+#Berita2 = st.Page("Berita_Bulan_September_2025.py"),
+#title=" Berita Desa Bulan September 2025",
+#icon=":material/person:")
 
 #Perlu diperhatikan perubahannya
 if st.session_state.pindah:
@@ -27,6 +28,7 @@ if st.session_state.pindah:
 else:
     st.write("Maaf Anda kurang beruntung :(") 
 pg.run()
+
 
 
 
