@@ -73,13 +73,13 @@ def display_images_with_data(gambar_urls, data_list):
     st.write("Semua gambar telah dimuat!")
 menu = streamlit_menu()
 
-# BAGIAN SINI YANG HANYA BOLEH DIUABAH
-if menu == "KKN Bersama Internasional 2025":
+# Ubah bagian ini
+if menu == "KKN Bersama Internasional 2025": #judul
     def kknbi():
         gambar_urls = [
-            "https://drive.google.com/uc?export=view&id=1sZHWuuSqwxkk2ZbaGBjkikXMb68i8KEr", #1
+            "https://drive.google.com/uc?export=view&id=1sZHWuuSqwxkk2ZbaGBjkikXMb68i8KEr", #gambar
         ]
-        data_list = [
+        data_list = [ #isi berita
             {
                 "berita": "KKN Bersama Internasional tahun 2025 melibatkan seluruh kampus BKS-PTN Barat. Kelompok 18 merupakan salah satu kelompok yang ditempatkan di Kabupaten Pesawaran. "
                 "Memiliki 9 anggota yang berasal dari berbagai daerah di Indonesia membuat KKN tahun ini berbeda. "
@@ -95,4 +95,5 @@ if menu == "KKN Bersama Internasional 2025":
         ]
         display_images_with_data(gambar_urls, data_list)
     kknbi()
+
 
