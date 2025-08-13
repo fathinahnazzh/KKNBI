@@ -5,7 +5,7 @@ from PIL import Image, ImageOps
 from io import BytesIO
 
 st.markdown("""<style>.centered-title {text-align: center;}</style>""",unsafe_allow_html=True)
-st.markdown("<h1 class='centered-title'>Berita Bulan Agustus</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='centered-title'>Berita Bulan Agustus</h1>", unsafe_allow_html=True) #heading halaman
 
 # bagian sini jangan diubah
 def streamlit_menu():
