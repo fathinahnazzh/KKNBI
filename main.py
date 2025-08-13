@@ -8,12 +8,12 @@ Homepage = st.Page("halaman_utama.py",
     title=" Profil Desa",
     default=True)
 
-Berita = st.Page("Berita_Bulan_Agustus_2025.py",
+Berita_Agustus = st.Page("Berita_Bulan_Agustus_2025.py",
     title=" Berita Desa Bulan Agustus 2025",
     icon=":material/person:")
 
 #Kalau mau nambah menu
-#Berita2 = st.Page("Berita_Bulan_September_2025.py"),
+#Berita_Sep = st.Page("Berita_Bulan_September_2025.py"),
 #title=" Berita Desa Bulan September 2025",
 #icon=":material/person:")
 
@@ -22,12 +22,13 @@ if st.session_state.pindah:
     pg = st.navigation(
         {
             "Halaman Utama": [Homepage],
-            "Berita" : [Berita],
+            "Berita" : [Berita_Agustus],
         }
     )
 else:
     st.write("Maaf Anda kurang beruntung :(") 
 pg.run()
+
 
 
 
