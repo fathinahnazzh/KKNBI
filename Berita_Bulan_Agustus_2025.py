@@ -12,10 +12,10 @@ def streamlit_menu():
     selected = option_menu(
         menu_title=None,
         options=[
-            "KKN Bersama Internasional 2025"
+            "KKN Bersama Internasional 2025","Perpisahan KKN Bersama Internasional 2025 dengan Perangkat Desa"
         ],
         icons=[
-            "people-fill"
+            "people-fill","people-fill"
         ],
         default_index=0,
         orientation="horizontal",
@@ -117,5 +117,6 @@ elif menu == "Perpisahan KKN Bersama Internasional 2025 dengan Perangkat Desa": 
         ]
         display_images_with_data(gambar_urls, data_list)
     LepasPisah()
+
 
 
