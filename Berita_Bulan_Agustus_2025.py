@@ -96,4 +96,25 @@ if menu == "KKN Bersama Internasional 2025": #judul
         display_images_with_data(gambar_urls, data_list)
     kknbi()
 
+if menu == "Perpisahan KKN Bersama Internasional 2025 dengan Perangkat Desa": #judul
+    def LepasPisah():
+        gambar_urls = [
+            "https://drive.google.com/uc?export=view&id=1sZHWuuSqwxkk2ZbaGBjkikXMb68i8KEr", #gambar
+        ]
+        data_list = [ #isi berita
+            {
+                "berita": "KKN Bersama Internasional tahun 2025 melibatkan seluruh kampus BKS-PTN Barat. Kelompok 18 merupakan salah satu kelompok yang ditempatkan di Kabupaten Pesawaran. "
+                "Memiliki 9 anggota yang berasal dari berbagai daerah di Indonesia membuat KKN tahun ini berbeda. "
+                "Program unggulannya bertujuan untuk memajukan wisata bahari dan UMKM yang berada di Desa Sidodadi."
+                ""
+                " Kelompok 18 terdiri dari 9 anggota yang berasal dari 7 Badan Kerja Sama Perguruan Tinggi Negeri Wilayah Barat (BKS-PTN Barat). Fathinah Nur Azizah (Institut Teknologi Sumatera)"
+                "menjadi ketua kelompok dan anggota lainnya adalah: Haidar Khadafi (Institut Teknologi Sumatera), Tiana Azzahra (Institut Teknologi Sumatera), Aji Fhahriyan (Universitas Syah Kuala),"
+                "Greece Ravaell (Universitas Palangka Raya), Nurul Dwi Endarina (Universitas Bengkulu), Nindya Armen Salsabila (Universitas Andalas),"
+                "Theo Sefa (Universitas Terbuka), Safitri Mutiara Putri (Universitas Lampung).",
+                "penulis": "KKN Bersama Internasional 2025",
+                "publikasi":"14 Agustus 2025",# 1
+            }
+        ]
+        display_images_with_data(gambar_urls, data_list)
+    LepasPisah()
 
