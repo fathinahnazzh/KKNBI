@@ -96,7 +96,7 @@ if menu == "KKN Bersama Internasional 2025": #judul
         display_images_with_data(gambar_urls, data_list)
     kknbi()
 
-if menu == "Perpisahan KKN Bersama Internasional 2025 dengan Perangkat Desa": #judul
+elif menu == "Perpisahan KKN Bersama Internasional 2025 dengan Perangkat Desa": #judul
     def LepasPisah():
         gambar_urls = [
             "https://drive.google.com/uc?export=view&id=1sZHWuuSqwxkk2ZbaGBjkikXMb68i8KEr", #gambar
@@ -117,4 +117,5 @@ if menu == "Perpisahan KKN Bersama Internasional 2025 dengan Perangkat Desa": #j
         ]
         display_images_with_data(gambar_urls, data_list)
     LepasPisah()
+
 
